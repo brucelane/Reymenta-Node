@@ -37,6 +37,7 @@
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
     <Compile Include="schemas\shader.js" />
+    <Compile Include="shader\index.js" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
@@ -47,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
+    <Folder Include="shader\" />
     <Folder Include="schemas\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
