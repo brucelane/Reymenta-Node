@@ -1,9 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ReymentaNode", "ReymentaNode\ReymentaNode.njsproj", "{429E17D2-735E-453F-9CE8-484259C28EE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileSystem", "FileSystem", "{4DE22BD0-11C9-4BF6-A170-F81B417D4953}"
+	ProjectSection(SolutionItems) = preProject
+		ReymentaNode\app.js = ReymentaNode\app.js
+		ReymentaNode\db.js = ReymentaNode\db.js
+		ReymentaNode\package.json = ReymentaNode\package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shader", "shader", "{4BACB895-736A-45EB-A12D-0B4484473F33}"
+	ProjectSection(SolutionItems) = preProject
+		ReymentaNode\shader\index.js = ReymentaNode\shader\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "routes", "routes", "{74FB1795-992C-4324-906F-C7EEB8390191}"
+	ProjectSection(SolutionItems) = preProject
+		ReymentaNode\routes\index.js = ReymentaNode\routes\index.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{BA085A63-4496-48C9-AB8B-CC47AC0476E7}"
+	ProjectSection(SolutionItems) = preProject
+		ReymentaNode\views\error.jade = ReymentaNode\views\error.jade
+		ReymentaNode\views\index.jade = ReymentaNode\views\index.jade
+		ReymentaNode\views\layout.jade = ReymentaNode\views\layout.jade
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +42,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BACB895-736A-45EB-A12D-0B4484473F33} = {4DE22BD0-11C9-4BF6-A170-F81B417D4953}
+		{74FB1795-992C-4324-906F-C7EEB8390191} = {4DE22BD0-11C9-4BF6-A170-F81B417D4953}
+		{BA085A63-4496-48C9-AB8B-CC47AC0476E7} = {4DE22BD0-11C9-4BF6-A170-F81B417D4953}
 	EndGlobalSection
 EndGlobal
